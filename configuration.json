@@ -1,0 +1,618 @@
+{
+  "name": "PSHMLWR",
+  "homepage": "https://ammnt.app",
+  "license": "GPLv3",
+  "sources": [
+    {
+      "source": "https://www.usom.gov.tr/url-list.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "http://tweettioc.com/feed/domain",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://azorult-tracker.net/api/list/domain?format=plain",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://bitbucket.org/ethanr/dns-blacklists/raw/master/bad_lists/Mandiant_APT1_Report_Appendix_D.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://blocklist.cyberthreatcoalition.org/vetted/domain.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://feeds.alphasoc.net/ryuk.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-hosts.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://hole.cert.pl/domains/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://infosharing.cybersaiyan.it/feeds/CS-PIHOLE",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://joewein.net/dl/bl/dom-bl-base.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://joewein.net/dl/bl/dom-bl.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://kriskintel.com/feeds/ktip_covid_domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://kriskintel.com/feeds/ktip_malicious_domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://kriskintel.com/feeds/ktip_ransomware_feeds.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://phishing.army/download/phishing_army_blocklist.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://phishing.army/download/phishing_army_blocklist.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2018-12-19_best_practice/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2019-03-06_egypt_oauth/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2019-08-16_evolving_phishing/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2019-10-10_nso_morocco/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2020-03-12_uzbekistan/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2020-06-15_india/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/amnestytech/investigations/master/2020-09-25_finfisher/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/bambenek/research/main/sunburst/uniq-hostnames.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "htps://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/infinitytec/blocklists/master/scams-and-phishing.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/metamask/eth-phishing-detect/master/src/hosts.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/mitchellkrogza/the-big-list-of-hacked-malware-web-sites/master/hosts",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/neo23x0/signature-base/master/iocs/c2-iocs.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/emd.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/fsa.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/grm.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/hfs.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/psh.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/pan-unit42/iocs/master/COVID-19%20IOCs/Proactive%20Registrations%20of%20Suspicious%20Parked%20Pages",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/prodaft/malware-ioc/master/FluBot/v3.7_5000_domain.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/prodaft/malware-ioc/master/FluBot/v3.7_germany.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/prodaft/malware-ioc/master/FluBot/v3.8_domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/prodaft/malware-ioc/master/FluBot/v3.9_italy.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/sophoslabs/covid-iocs/master/malware_domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/spam404/lists/master/main-blacklist.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://rescure.me/covid.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://rescure.me/rescure_domain_blacklist.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://rescure.me/malware/maze.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://rescure.me/malware/ekans.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://rescure.me/malware/wastedlocker.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://www.botvrij.eu/data/ioclist.domain.raw",
+      "type": "adblock"
+    },
+    {
+      "source": "https://www.botvrij.eu/data/ioclist.hostname.raw",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://www.stopforumspam.com/downloads/toxic_domains_whole.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://www.threatcrowd.org/feeds/domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Zeus%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Zbot%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/W32.Bayrob%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ursnif%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Upatre%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA551%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA505%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA2719%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/TA2552%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Spelevo.EK%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ryuk%20Ransomware%20and%20Associated%20Threat%20Activity",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Remcos%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/RedLine%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ramnit%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/PredatorTheThief%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Predator%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Pony%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Phorpiex%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Personal%20Cookie%20list%20-%20Ads",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/NjRat%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Nivdort%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Phishing%2C%20Fraud%2C%20Spam%20%26%20Unknown%20Use%20-%20Part%203",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Phishing%2C%20Fraud%2C%20Spam%20%26%20Unknown%20Use%20-%20Part%202",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Phishing%2C%20Fraud%2C%20Spam%20%26%20Unknown%20Use%20-%20Part%201",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Multiple%20RAT%20Threats%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Malware%20Domain%20Feed%20V2%20-%20November%2003%202020",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Malware%20Domain%20Feed%20V2%20-%20February%2010%202020",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Crypto%20Mining%20Pool%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/MalDoc%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/LokiBot%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Locky%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/DGA%20-%20Unknown%20Use",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Netwire%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Nanocore%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Ransomware%20Sodinokibi",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Malware%20-%20Win32.",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/APPLE%20Malware%2C%20Exploits%2C%20Hacks%20IOCs",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Kryptik%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/IcedID%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Hancitor%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Generic.Trojan%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/FormBook%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/FakeSpy%20(JapanPost)%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Emotet%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Dunihi%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Dridex%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/DarkComet%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Cryptowall%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/AZORult%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/AgentTesla%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Amadey%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Andromeda%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Arkei%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Ave.Maria%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Bahamut%20IOCs%20-%20Domains%20%26%20Hosts",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/CobaltStrike%20-%20Malware%20Domain%20Feed%20V2",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Covid-19%20Related%20Domains%20(SPAM)",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://gitlab.com/Kurobeats/phishing_hosts/raw/master/hosts",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://curben.gitlab.io/malware-filter/phishing-filter.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://v.firebog.net/hosts/Prigent-Phishing.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/HorusTeknoloji/TR-PhishingList/master/url-lists.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    }
+  ],
+  "transformations": ["RemoveComments", "Validate", "Deduplicate", "Compress"],
+  "exclusions_sources": ["global_exclusions.txt"]
+}
