@@ -3,7 +3,6 @@ srv112-237-186-93.vk.com
 ns1.reg.ru
 reg.ru
 yandex.ru
-REG.RU
 ocsp.godaddy.com
 ocsp.pki.goog
 dns.hostinger.com
@@ -12,6 +11,7 @@ chat.whatsapp.com
 akadns.net
 a.aliexpress.com
 onion
+REG.RU
 0.mk
 06.hk
 0845.com
