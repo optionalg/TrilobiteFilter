@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/AmmoniteFilter/TrilobiteFilter/main/trlbt_logo.png" />
+<img src="trlbt_logo.png" />
 </p>
 
 ***
