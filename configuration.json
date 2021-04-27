@@ -9,6 +9,66 @@
       "transformations": ["RemoveComments"]
     },
     {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Disconnect-Malware-Filter.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/DNS-BH-Malware-Domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/ImmortalMalwareDomains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/gwillem/magento-malware-scanner/master/rules/burner-domains.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/malware",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/parseword/nolovia/master/skel/hosts-government-malware.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Prigent-Malware.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://v.firebog.net/hosts/Shalla-mal.txt",
+      "type": "adblock",
+      "transformations": ["RemoveComments"]
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Th3M3/blocklists/master/malware.list",
+      "type": "hosts",
+      "transformations": ["RemoveComments"]
+    },
+    {
       "source": "http://tweettioc.com/feed/domain",
       "type": "adblock",
       "transformations": ["RemoveComments", "RemoveModifiers"]
