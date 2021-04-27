@@ -8,7 +8,7 @@
 
 This repository contains <b><a href="filter.txt">security filter</a></b> for <b><a href="https://adguard.com/en/adguard-home.html">AdGuard Home</a></b> that blocks only phishing, malware and other malicious domains and their subdomains🤬
 
-This filter is a compilation from different <b><a href="configuration.json">sources</a></b> using <b><a href="https://github.com/AdguardTeam/HostlistCompiler">HostlistCompiler</a></b>📡You can use it any way you want, but I recommend using it with the desktop versions of <b><a href="https://adguard.com/en/adguard-mac/overview.html">AdGuard</a></b>🛡The file will be updated regularly⚠️
+This filter is a compilation from different <b><a href="configuration.json">sources</a></b> using <b><a href="https://github.com/AdguardTeam/HostlistCompiler">HostlistCompiler</a></b> from AdGuard🛡You can use it any way you want. The file will be updated regularly⚠️
 
 ## Note:
 
