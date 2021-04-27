@@ -593,6 +593,16 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
+      "source": "https://urlhaus.abuse.ch/downloads/hostfile",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
+      "source": "https://orca.pet/notonmyshift/hosts.txt",
+      "type": "hosts",
+      "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
       "source": "https://curben.gitlab.io/malware-filter/phishing-filter.txt",
       "type": "adblock",
       "transformations": ["RemoveComments", "RemoveModifiers"]
