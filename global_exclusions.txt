@@ -12,6 +12,16 @@ akadns.net
 a.aliexpress.com
 onion
 REG.RU
+tria.ge
+mail.ru
+qiwi.com
+paypal.com
+ya.ru
+github.community
+qip.ru
+ozon.ru
+gmail.com
+habr.com
 0.mk
 06.hk
 0845.com
