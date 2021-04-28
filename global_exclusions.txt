@@ -39,6 +39,8 @@
 ||yahoo.com^
 ||github.com^
 ||protonmail.com^
+||yandex^
+||apple^
 
 
 # Url shorteners
