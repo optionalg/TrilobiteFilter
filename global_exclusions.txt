@@ -37,6 +37,8 @@
 ||hhgftyd5634d^
 ||hhgftyd5^
 ||yahoo.com^
+||github.com^
+||protonmail.com^
 
 
 # Url shorteners
