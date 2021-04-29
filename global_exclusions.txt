@@ -669,6 +669,7 @@ jiuying28.com.cdn.cloudflare.net
 supportxmr.com.cdn.cloudflare.net
 we35.in.cdn.cloudflare.net
 cloudflare.com
+disconnect.me
 yahoo.com
 github.com
 0.mk
