@@ -1,14 +1,14 @@
 <p align="center">
-<img src="trlbt_logo.png" />
+<img src="https://raw.githubusercontent.com/AmmoniteFilter/TrilobiteFilter/main/trlbt_logo.png" />
 </p>
 
 ***
 
 # Description:
 
-This repository contains <b><a href="filter.txt">security filter</a></b> for <b><a href="https://adguard.com/en/adguard-home.html">AdGuard Home</a></b> that blocks only phishing, malware and other malicious domains and their subdomains🤬
+This repository contains <b><a href="https://raw.githubusercontent.com/AmmoniteFilter/TrilobiteFilter/main/filter.txt">security filter</a></b> for <b><a href="https://adguard.com/en/adguard-home.html">AdGuard Home</a></b> that blocks only phishing, malware and other malicious domains and their subdomains🤬
 
-This filter is a compilation from the different <b><a href="configuration.json">sources</a></b> using <b><a href="https://github.com/AdguardTeam/HostlistCompiler">HostlistCompiler</a></b> by AdGuard🛡You can use it any way you want. The file will be updated regularly⚠️
+This filter is a compilation from the different <b><a href="https://raw.githubusercontent.com/AmmoniteFilter/TrilobiteFilter/main/configuration.json">sources</a></b> using <b><a href="https://github.com/AdguardTeam/HostlistCompiler">HostlistCompiler</a></b> by AdGuard🛡You can use it any way you want. The file will be updated regularly⚠️
 
 ## Note:
 
