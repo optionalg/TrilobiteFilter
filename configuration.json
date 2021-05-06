@@ -194,7 +194,7 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
-      "source": "htps://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains",
+      "source": "https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains",
       "type": "adblock",
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
@@ -638,11 +638,6 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
-      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Covid-19%20Related%20Domains%20(SPAM)",
-      "type": "adblock",
-      "transformations": ["RemoveComments", "RemoveModifiers"]
-    },
-    {
       "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "type": "adblock",
       "transformations": ["RemoveComments", "RemoveModifiers"]
@@ -658,7 +653,7 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
-      "source": "https://orca.pet/notonmyshift/hosts.txt",
+      "source": "https://noms.orca.pet/hosts.txt",
       "type": "hosts",
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
