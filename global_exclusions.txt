@@ -693,7 +693,7 @@ habr.com
 shengen.ru
 gov.ru
 yandex.kz
-s3.amazonaws.com
+amazonaws.com
 googlehosted.com
 gstatic.com
 youtube.com
