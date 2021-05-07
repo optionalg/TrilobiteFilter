@@ -673,6 +673,11 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
+       "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Covid-19%20Related%20Domains%20(SPAM)",
+       "type": "adblock",
+       "transformations": ["RemoveComments", "RemoveModifiers"]
+    },
+    {
       "source": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt",
       "type": "adblock",
       "transformations": ["RemoveComments", "RemoveModifiers"]
