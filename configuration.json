@@ -653,7 +653,7 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
-      "source": "https://noms.orca.pet/hosts.txt",
+      "source": "https://orca.pet/notonmyshift/hosts.txt",
       "type": "hosts",
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
