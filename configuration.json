@@ -658,7 +658,7 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
     {
-      "source": "https://curben.gitlab.io/malware-filter/phishing-filter.txt",
+      "source": "https://curben.gitlab.io/malware-filter/phishing-filter-agh.txt",
       "type": "adblock",
       "transformations": ["RemoveComments", "RemoveModifiers"]
     },
