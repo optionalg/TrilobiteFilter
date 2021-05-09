@@ -1,7 +1,6 @@
 {
   "name": "TrilobiteFilter",
-  "homepage": "https://ammnt.app",
-  "source": "https://github.com/AmmoniteFilter/TrilobiteFilter",
+  "homepage": "https://github.com/AmmoniteFilter/TrilobiteFilter",
   "license": "GPLv3",
   "sources": [
     {
