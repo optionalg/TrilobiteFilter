@@ -683,6 +683,6 @@
       "transformations": ["RemoveComments", "RemoveModifiers"]
     }
   ],
-  "transformations": ["RemoveComments", "Validate", "Deduplicate", "Compress"],
+  "transformations": ["RemoveComments", "Deduplicate", "Compress", "Validate"],
   "exclusions_sources": ["global_exclusions.txt"]
 }
