@@ -105,6 +105,7 @@ blog.apnic.net
 telegram.me
 api.telegram.org
 join.skype.com
+yandex.ru
 ! URL shorteners
 0.mk
 06.hk
@@ -2271,3 +2272,4 @@ zeesportvissen.b
 blog.btdeployments.cu.m
 flash-updates.m
 saglikbakanligipandemidestek.m
+fosurfosur5.xy
