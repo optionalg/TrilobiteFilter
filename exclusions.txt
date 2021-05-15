@@ -88,7 +88,11 @@ files162.hostinger.com
 nic.com.au
 nic.gov.np
 nic.net.bw
+www.com
+
+
 ! URL shorteners
+
 0.mk
 06.hk
 0845.com
