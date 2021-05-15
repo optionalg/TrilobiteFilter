@@ -89,7 +89,14 @@ nic.com.au
 nic.gov.np
 nic.net.bw
 www.com
-
+icloud.com
+gateway.discord.gg
+mzstatic.com
+ip-api.com
+ip-home.net
+val.bmstu.ru
+cloudfront.net
+immuniweb.com
 
 ! URL shorteners
 
