@@ -99,6 +99,7 @@ cloudfront.net
 immuniweb.com
 telegram.me
 stackoverflow.com
+jquery.com
 REG.RU
 
 ! URL shorteners
