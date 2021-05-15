@@ -98,6 +98,7 @@ val.bmstu.ru
 cloudfront.net
 immuniweb.com
 telegram.me
+stackoverflow.com
 REG.RU
 
 ! URL shorteners

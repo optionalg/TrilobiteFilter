@@ -56,10 +56,6 @@
       "type": "hosts"
     },
     {
-      "source": "http://tweettioc.com/feed/domain",
-      "type": "adblock"
-    },
-    {
       "source": "https://azorult-tracker.net/api/list/domain?format=plain",
       "type": "adblock"
     },
