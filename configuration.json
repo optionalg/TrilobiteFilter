@@ -308,10 +308,6 @@
       "type": "adblock"
     },
     {
-      "source": "https://raw.githubusercontent.com/Esox-Lucius/PiHoleblocklists/main/Covid-19%20Related%20Domains%20(SPAM)",
-       "type": "adblock"
-    },
-    {
       "source": "https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt",
        "type": "adblock"
     },
