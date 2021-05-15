@@ -14,7 +14,6 @@ broadcast
 broadcasthost
 broken.grouptelecom.net.246.142.139.in-addr.arpa
 
-
 ! False positives
 
 reg.ru
@@ -89,10 +88,7 @@ files162.hostinger.com
 nic.com.au
 nic.gov.np
 nic.net.bw
-
-
 ! URL shorteners
-
 0.mk
 06.hk
 0845.com
@@ -1596,7 +1592,6 @@ zzang.kr
 zzb.bz
 zzz.ee
 
-
 ! Syntax errors
 
 023f1ef0cc2c1e055b05ae1ff5bcc6bf2421003dea227aeb6d70c8a525fa3b82
@@ -1870,15 +1865,6 @@ zeesportvissen.b
 blog.btdeployments.cu.m
 flash-updates.m
 saglikbakanligipandemidestek.m
-76gmail.com.
-abbp1.science.
-abbp1.space.
-abbp1.website.
-adspayformymortgage.win.
-e-devletiadegirisgovtr.com.
-onedmp.com.
-pambeauty.com.
-poolnoodle.tech.
 gmail.ocm
 bmo-onlinesecure.comm
 gmail.comm
