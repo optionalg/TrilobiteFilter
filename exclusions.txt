@@ -97,6 +97,8 @@ ip-home.net
 val.bmstu.ru
 cloudfront.net
 immuniweb.com
+telegram.me
+REG.RU
 
 ! URL shorteners
 
