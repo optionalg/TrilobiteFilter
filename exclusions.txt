@@ -1961,6 +1961,10 @@ zpwibfsmoowehdsm.onion
 zuh3vcyskd4gipkm.onion
 zxjfcvfvhqfqsrpz.onion
 ismjiope3jmwagf3.onion
+3og7wipgh3ruavi7gd6y3uzhcurazasln55hb6hboiavyk6pugkcdpqd.onion
+erc4xzvrchka5izw.onion
+o4hlcckwlbcy7qhhohqswpqla6wx7c5xmsvk3k4rohknng4nofvgz5id.onion
+p2l44qilgm433bad5gbszb4mluxuejwkjaaon767m5dzuuc7mjqhcead.onion
 
 ! Syntax errors
 
@@ -2241,3 +2245,6 @@ gmail.comm
 outlook.comm
 paypal-webservicesrcx-info.comm
 -d-e-v-l-e-t-aidat-iade-sistemleri-g-o-v-tr.com
+fatalerrorx23987.xy
+fosurfosur5.xy
+sibarzz.xy
