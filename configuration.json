@@ -308,6 +308,10 @@
        "type": "adblock"
     },
     {
+      "source": "https://infosec.cert-pa.it/analyze/listdomains.txt",
+       "type": "adblock"
+    },
+    {
       "source": "dga_by_netlab_360.txt",
        "type": "adblock"
     },
