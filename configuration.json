@@ -8,6 +8,10 @@
       "type": "adblock"
     },
     {
+      "source": "https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main.txt",
+      "type": "adblock"
+    },
+    {
       "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Disconnect-Malware-Filter.txt",
       "type": "adblock"
     },
