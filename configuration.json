@@ -316,12 +316,24 @@
        "type": "adblock"
     },
     {
-      "source": "dga_by_netlab_360.txt",
-       "type": "adblock"
-    },
-    {
       "source": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt",
       "type": "adblock"
+    },
+    {
+      "source": "https://rescure.fruxlabs.com/covid.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://rescure.fruxlabs.com/rescure_domain_blacklist.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/cb-software/CB-Malicious-Domains/master/block_lists/adblock_plus.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "dga_by_netlab_360.txt",
+       "type": "adblock"
     }
   ],
   "transformations": ["RemoveComments", "Compress", "Deduplicate", "Validate"],
