@@ -332,6 +332,34 @@
       "type": "adblock"
     },
     {
+      "source": "https://www.botvrij.eu/data/ioclist.hostname.raw",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/CryptoWall-Ransomware-C2-Domain-blocklist.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Locky-Ransomware-C2-Domain-Blocklist.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt",
+      "type": "hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/PiHole/Archive/Cerber_Ransomware.txt",
+      "type": "adblock"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Ransomware-Domain-Blocklist.txt",
+      "type": "adblock"
+    },
+    {
       "source": "dga_by_netlab_360.txt",
        "type": "adblock"
     }
