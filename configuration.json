@@ -4,67 +4,7 @@
   "license": "GPLv3",
   "sources": [
     {
-      "source": "https://www.usom.gov.tr/url-list.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/scafroglia93/blocklists/master/blocklists-main.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Disconnect-Malware-Filter.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareDomains.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/DNS-BH-Malware-Domains.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/ImmortalMalwareDomains.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/gwillem/magento-malware-scanner/master/rules/burner-domains.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/migueldemoura/ublock-umatrix-rulesets/master/Hosts/malware",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/parseword/nolovia/master/skel/hosts-government-malware.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Prigent-Malware.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://v.firebog.net/hosts/Shalla-mal.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/Th3M3/blocklists/master/malware.list",
-      "type": "hosts"
-    },
-    {
       "source": "https://azorult-tracker.net/api/list/domain?format=plain",
-      "type": "adblock"
-    },
-    {
-      "source": "https://bitbucket.org/ethanr/dns-blacklists/raw/master/bad_lists/Mandiant_APT1_Report_Appendix_D.txt",
       "type": "adblock"
     },
     {
@@ -76,15 +16,11 @@
       "type": "adblock"
     },
     {
-      "source": "https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-hosts.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+      "source": "https://hole.cert.pl/domains/domains.txt",
       "type": "adblock"
     },
     {
-      "source": "https://hole.cert.pl/domains/domains.txt",
+      "source": "https://infosec.cert-pa.it/analyze/listdomains.txt",
       "type": "adblock"
     },
     {
@@ -108,11 +44,11 @@
       "type": "adblock"
     },
     {
-      "source": "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt",
-      "type": "adblock"
+      "source": "https://orca.pet/notonmyshift/hosts.txt",
+      "type": "hosts"
     },
     {
-      "source": "https://phishing.army/download/phishing_army_blocklist.txt",
+      "source": "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt",
       "type": "adblock"
     },
     {
@@ -144,40 +80,16 @@
       "type": "adblock"
     },
     {
-      "source": "https://raw.githubusercontent.com/bambenek/research/main/sunburst/uniq-hostnames.txt",
+      "source": "https://raw.githubusercontent.com/HorusTeknoloji/TR-PhishingList/master/url-lists.txt",
       "type": "adblock"
     },
     {
-      "source": "https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains",
+      "source": "https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt",
       "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/infinitytec/blocklists/master/scams-and-phishing.txt",
-      "type": "hosts"
     },
     {
       "source": "https://raw.githubusercontent.com/metamask/eth-phishing-detect/master/src/hosts.txt",
       "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/mitchellkrogza/the-big-list-of-hacked-malware-web-sites/master/hosts",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/neo23x0/signature-base/master/iocs/c2-iocs.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains",
-      "type": "adblock"
     },
     {
       "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/emd.txt",
@@ -185,14 +97,6 @@
     },
     {
       "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/fsa.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/grm.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/p-mng/hosts-file-backup/master/hfs.txt",
       "type": "hosts"
     },
     {
@@ -228,11 +132,11 @@
       "type": "adblock"
     },
     {
-      "source": "https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt",
+      "source": "https://rescure.fruxlabs.com/covid.txt",
       "type": "adblock"
     },
     {
-      "source": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt",
+      "source": "https://rescure.fruxlabs.com/rescure_domain_blacklist.txt",
       "type": "adblock"
     },
     {
@@ -240,7 +144,7 @@
       "type": "adblock"
     },
     {
-      "source": "https://rescure.me/rescure_domain_blacklist.txt",
+      "source": "https://rescure.me/malware/ekans.txt",
       "type": "adblock"
     },
     {
@@ -248,12 +152,16 @@
       "type": "adblock"
     },
     {
-      "source": "https://rescure.me/malware/ekans.txt",
+      "source": "https://rescure.me/rescure_domain_blacklist.txt",
       "type": "adblock"
     },
     {
       "source": "https://rescure.me/malware/wastedlocker.txt",
       "type": "adblock"
+    },
+    {
+      "source": "https://urlhaus.abuse.ch/downloads/hostfile",
+      "type": "hosts"
     },
     {
       "source": "https://www.botvrij.eu/data/ioclist.domain.raw",
@@ -272,96 +180,8 @@
       "type": "adblock"
     },
     {
-      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts",
-      "type": "hosts"
-    },
-    {
-      "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+      "source": "https://www.usom.gov.tr/url-list.txt",
       "type": "adblock"
-    },
-    {
-      "source": "https://gitlab.com/Kurobeats/phishing_hosts/raw/master/hosts",
-      "type": "hosts"
-    },
-    {
-      "source": "https://urlhaus.abuse.ch/downloads/hostfile",
-      "type": "hosts"
-    },
-    {
-      "source": "https://orca.pet/notonmyshift/hosts.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://curben.gitlab.io/malware-filter/phishing-filter-agh.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://v.firebog.net/hosts/Prigent-Phishing.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/HorusTeknoloji/TR-PhishingList/master/url-lists.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt",
-       "type": "adblock"
-    },
-    {
-      "source": "https://infosec.cert-pa.it/analyze/listdomains.txt",
-       "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://rescure.fruxlabs.com/covid.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://rescure.fruxlabs.com/rescure_domain_blacklist.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/cb-software/CB-Malicious-Domains/master/block_lists/adblock_plus.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://www.botvrij.eu/data/ioclist.hostname.raw",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/CryptoWall-Ransomware-C2-Domain-blocklist.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Locky-Ransomware-C2-Domain-Blocklist.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt",
-      "type": "hosts"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/PiHole/Archive/Cerber_Ransomware.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Ransomware-Domain-Blocklist.txt",
-      "type": "adblock"
-    },
-    {
-      "source": "dga_by_netlab_360.txt",
-       "type": "adblock"
     }
   ],
   "transformations": ["RemoveComments", "Compress", "Deduplicate", "Validate"],
