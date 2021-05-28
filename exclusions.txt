@@ -13,6 +13,12 @@ ip6-allhosts
 broadcast
 broadcasthost
 
+!
+
+www.com
+cloudflare.com
+portal.audit.gov.ru
+
 ! URL shorteners
 
 0.mk
@@ -1520,6 +1526,9 @@ zzz.ee
 
 ! Syntax errors
 
+fatalerrorx23987.xy
+fosurfosur5.xy
+sibarzz.xy
 0.php
 a.php
 config.php
