@@ -13,12 +13,13 @@ ip6-allhosts
 broadcast
 broadcasthost
 
-!
+! False positives
 
 www.com
 cloudflare.com
 portal.audit.gov.ru
 mzstatic.com
+val.bmstu.ru
 
 ! URL shorteners
 
